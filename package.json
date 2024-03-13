@@ -1,0 +1,21 @@
+{
+  "name": "@example/basics",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "wrangler pages dev ./dist --kv KV",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^4.5.2",
+    "@astrojs/cloudflare": "^9.1.0"
+  },
+  "devDependencies": {
+    "wrangler": "^3.33.0",
+    "@cloudflare/workers-types": "^4.20240312.0"
+  }
+}
